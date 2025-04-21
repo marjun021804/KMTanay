@@ -1,0 +1,182 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Header Section */
+header {
+    background-color: #ffb6c1;
+    padding: 10px 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Header Section */
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures space between elements */
+    padding: 10px 20px;
+}
+
+/* Align the Title to the Left */
+.header-container h1 {
+    margin-left: 10px; /* Adds space from the logo */
+    text-align: left;
+    color: white;
+    
+    flex-grow: 1; /* Pushes other elements to the right */
+}
+
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.auth-links {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.auth-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* Search Bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.search-bar input {
+    width: 500px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 8px 12px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.search-bar button i {
+    color: white;
+}
+
+
+/* Center the Subtitle */
+.subtitle {
+    text-align: center; /* Centers the text */
+    font-size: 30px; /* Adjust size as needed */
+    font-style: italic; /* Matches the original style */
+    margin-top: 20px; /* Adjust spacing from header */
+    display: block;
+    width: 100%;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.btn1 {
+    background-color: #ffb6c1; 
+    color: white;        
+    border: none;   
+    text-align: center;    
+    width: 100%;    
+    padding: 6px 12px;     
+    font-size: 16px;         
+    font-weight: bold;      
+    border-radius: 8px;  
+    text-decoration: none;   
+    cursor: pointer;          
+  }
+  
+  .btn1:hover {
+    color: white;    
+    background-color: #ff8da1; 
+    text-decoration: none;
+  }
+
+.order-status-top-right {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none; /* Remove background color */
+    padding: 5px 10px;
+    color: black; /* Change text color to black */
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.order-box {
+    position: relative; /* Ensure positioning context for the status */
+    width: 100%; /* Ensure the section takes full width */
+    max-width: 800px; /* Limit the maximum width */
+    margin: auto; /* Center the section */
+    background: #ffe3ec;
+    padding: 15px;
+    margin: 15px auto; /* Center the section horizontally */
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping inside the box */
+    align-items: center;
+    gap: 15px; /* Add gap between elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.btn-toggle-details {
+    background: #f8a5c2;
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+    white-space: nowrap;
+}
+
+.btn-toggle-details:hover {
+    background-color: #e56b92;
+}
+
+.order-details {
+    margin-top: 10px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.order-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.action-buttons {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+}
+
